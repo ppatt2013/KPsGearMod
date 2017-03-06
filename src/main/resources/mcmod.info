@@ -1,0 +1,16 @@
+[
+{
+  "modid": "kpsgearmod",
+  "name": "KPsGearMod",
+  "description": "Adds obsidian armor, weapons, and tools to the game.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Keane Patterson", "Pearson Patterson"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

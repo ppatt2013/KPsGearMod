@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KPsGearMod.iml" filepath="$PROJECT_DIR$/.idea/modules/KPsGearMod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KPsGearMod_api.iml" filepath="$PROJECT_DIR$/.idea/modules/KPsGearMod_api.iml" group="KPsGearMod" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KPsGearMod_main.iml" filepath="$PROJECT_DIR$/.idea/modules/KPsGearMod_main.iml" group="KPsGearMod" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KPsGearMod_test.iml" filepath="$PROJECT_DIR$/.idea/modules/KPsGearMod_test.iml" group="KPsGearMod" />
+    </modules>
+  </component>
+</project>
