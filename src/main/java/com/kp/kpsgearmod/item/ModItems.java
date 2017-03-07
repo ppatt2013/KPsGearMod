@@ -7,25 +7,29 @@ import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
-public class ModItems {
-
+public class ModItems
+{
     public static Item unrefinedobsidiandust;
 
-    public static void preInit() {
-        unrefinedobsidiandust = new UnrefinedObsidianDust("unrefinedobsidiandust");
-        registerItems();
+    public static void init()
+    {
+        unrefinedobsidiandust = new ItemUnrefinedObsidianDust();
+        register();
     }
 
-    public static void registerItems(){
-        GameRegistry.register(unrefinedobsidiandust, new ResourceLocation(KPsGearMod.MODID, "unrefinedobsidiandust"));
+    public static void register()
+    {
+        GameRegistry.register(unrefinedobsidiandust);
     }
 
-    public static void registerRenders() {
-
+    public static void registerRenders()
+    {
+        registerRender(unrefinedobsidiandust);
     }
 
-    public static void registerRender(Item item) {
-        Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
+    private static void registerRender(Item item)
+    {
+        Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item,0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
     }
 
 }
