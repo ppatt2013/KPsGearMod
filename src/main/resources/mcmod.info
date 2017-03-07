@@ -1,7 +1,7 @@
 [
 {
   "modid": "kpsgearmod",
-  "name": "KPsGearMod",
+  "name": "KPs Gear Mod",
   "description": "Adds obsidian armor, weapons, and tools to the game.",
   "version": "${version}",
   "mcversion": "${mcversion}",

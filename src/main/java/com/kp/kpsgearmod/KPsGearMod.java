@@ -1,26 +1,47 @@
 package com.kp.kpsgearmod;
 
-import net.minecraft.init.Blocks;
-import net.minecraft.item.Item;
-import net.minecraftforge.common.util.EnumHelper;
+import com.kp.kpsgearmod.item.ModItems;
+import com.kp.kpsgearmod.proxy.CommonProxy;
+import com.kp.kpsgearmod.tab.CreativeTabKPsGearMod;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-/**
- * Created by Pearson Patterson on 3/6/2017.
- */
-@Mod(modid = KPsGearMod.MODID, version = KPsGearMod.VERSION)
-public class KPsGearMod
-{
+@Mod(modid = KPsGearMod.MODID, version = KPsGearMod.VERSION, name = KPsGearMod.NAME)
+public class KPsGearMod {
     public static final String MODID = "kpsgearmod";
     public static final String VERSION = "1.0.0";
+    public static final String NAME = "KPs Gear Mod";
+
+    @SidedProxy(clientSide = "com.kp.kpsgearmod.proxy.ClientProxy", serverSide = "com.kp.kpsgearmod.proxy.CommonProxy")
+    public static CommonProxy proxy;
+
+    @Mod.Instance
+    public static KPsGearMod instance;
+
+    public static CreativeTabKPsGearMod tabKPsGearMod;
 
     @EventHandler
-    public void init(FMLInitializationEvent event)
-    {
-        // some example code
-        System.out.println("DIRT BLOCK >> "+Blocks.DIRT.getUnlocalizedName());
+    public void preInit(FMLPreInitializationEvent event) {
+        tabKPsGearMod = new CreativeTabKPsGearMod(CreativeTabs.getNextID(), "tab_kpsgearmod");
+        ModItems.preInit();
+        proxy.preInit(event);
+    }
+
+    @EventHandler
+    public void init(FMLInitializationEvent event) {
+
+        proxy.init(event);
+    }
+
+    @EventHandler
+    public void postInit(FMLPostInitializationEvent event) {
+
+        proxy.postInit(event);
     }
 }
 
