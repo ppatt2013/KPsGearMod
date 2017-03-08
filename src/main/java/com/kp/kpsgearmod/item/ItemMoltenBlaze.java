@@ -15,6 +15,6 @@ public class ItemMoltenBlaze extends Item
         setUnlocalizedName(Reference.KPsGearModItems.MOLTENBLAZE.getUnlocalizedName());
         setRegistryName(Reference.KPsGearModItems.MOLTENBLAZE.getRegistryName());
         setCreativeTab(KPsGearMod.tabKPsGearMod);
-        setMaxStackSize(64);
+        setMaxStackSize(1);
     }
 }

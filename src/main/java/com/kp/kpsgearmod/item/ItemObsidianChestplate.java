@@ -12,9 +12,9 @@ import net.minecraft.item.ItemArmor;
 public class ItemObsidianChestplate extends ItemArmor
 {
 
-    public ItemObsidianChestplate(ArmorMaterial material, EntityEquipmentSlot slot)
+    public ItemObsidianChestplate(ArmorMaterial material, int renderIndex, EntityEquipmentSlot slot)
     {
-        super(material, 0, slot);
+        super(material, renderIndex, slot);
         setUnlocalizedName(Reference.KPsGearModItems.OBSIDIANCHESTPLATE.getUnlocalizedName());
         setRegistryName(Reference.KPsGearModItems.OBSIDIANCHESTPLATE.getRegistryName());
         setCreativeTab(KPsGearMod.tabKPsGearMod);

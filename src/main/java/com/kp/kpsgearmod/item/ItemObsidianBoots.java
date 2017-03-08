@@ -12,9 +12,9 @@ import net.minecraft.item.ItemArmor;
 public class ItemObsidianBoots extends ItemArmor
 {
 
-    public ItemObsidianBoots(ArmorMaterial material, EntityEquipmentSlot slot)
+    public ItemObsidianBoots(ArmorMaterial material, int renderIndex, EntityEquipmentSlot slot)
     {
-        super(material, 0, slot);
+        super(material, renderIndex, slot);
         setUnlocalizedName(Reference.KPsGearModItems.OBSIDIANBOOTS.getUnlocalizedName());
         setRegistryName(Reference.KPsGearModItems.OBSIDIANBOOTS.getRegistryName());
         setCreativeTab(KPsGearMod.tabKPsGearMod);

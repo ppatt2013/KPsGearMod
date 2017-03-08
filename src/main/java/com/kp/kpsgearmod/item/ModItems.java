@@ -35,10 +35,10 @@ public class ModItems
         diamonddust = new ItemDiamondDust();
         moltenblaze = new ItemMoltenBlaze();
         molteningot = new ItemMoltenIngot();
-        obsidianchestplate = new ItemObsidianChestplate(Materials.obsidianArmorMaterial, EntityEquipmentSlot.CHEST);
-        obsidianhelmet = new ItemObsidianHelmet(Materials.obsidianArmorMaterial, EntityEquipmentSlot.HEAD);
-        obsidianleggings = new ItemObsidianLeggings(Materials.obsidianArmorMaterial, EntityEquipmentSlot.LEGS);
-        obsidianboots = new ItemObsidianBoots(Materials.obsidianArmorMaterial, EntityEquipmentSlot.FEET);
+        obsidianchestplate = new ItemObsidianChestplate(Materials.obsidianArmorMaterial, 1, EntityEquipmentSlot.CHEST);
+        obsidianhelmet = new ItemObsidianHelmet(Materials.obsidianArmorMaterial, 1, EntityEquipmentSlot.HEAD);
+        obsidianleggings = new ItemObsidianLeggings(Materials.obsidianArmorMaterial, 2, EntityEquipmentSlot.LEGS);
+        obsidianboots = new ItemObsidianBoots(Materials.obsidianArmorMaterial, 1, EntityEquipmentSlot.FEET);
         obsidiansword = new ItemObsidianSword(Materials.obsidianToolMaterial);
         obsidianpickaxe = new ItemObsidianPickaxe(Materials.obsidianToolMaterial);
         obsidianshovel = new ItemObsidianShovel(Materials.obsidianToolMaterial);
