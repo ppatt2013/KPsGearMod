@@ -1,7 +1,5 @@
 package com.kp.kpsgearmod;
 
-import com.kp.kpsgearmod.item.ItemUnrefinedObsidianDust;
-
 /**
  * Created by PEARSON-PC on 3/6/2017.
  */
@@ -16,7 +14,7 @@ public class Reference
 
     public static enum KPsGearModItems
     {
-        UNREFINEDOBSIDIANDUST("unrefinedobsidiandust", "ItemUnrefinedObsidianDust");
+        OBSIDIANINGOT("obsidianingot", "ItemObsidianIngot");
 
         private String unlocalizedName;
         private String registryName;

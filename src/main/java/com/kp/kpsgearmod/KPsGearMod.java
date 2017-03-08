@@ -23,21 +23,22 @@ public class KPsGearMod
     public static CreativeTabKPsGearMod tabKPsGearMod;
 
     @EventHandler
-    public void preInit(FMLPreInitializationEvent event) {
-        tabKPsGearMod = new CreativeTabKPsGearMod(CreativeTabs.getNextID(), "tab_kpsgearmod");
+    public void preInit(FMLPreInitializationEvent event)
+    {
+        tabKPsGearMod = new CreativeTabKPsGearMod(CreativeTabs.getNextID());
         ModItems.init();
         proxy.preInit(event);
     }
 
     @EventHandler
-    public void init(FMLInitializationEvent event) {
+    public void init(FMLInitializationEvent event)
+    {
         proxy.init(event);
     }
 
     @EventHandler
-    public void postInit(FMLPostInitializationEvent event) {
-
+    public void postInit(FMLPostInitializationEvent event)
+    {
         proxy.postInit(event);
     }
 }
-

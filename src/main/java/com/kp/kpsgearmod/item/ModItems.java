@@ -1,30 +1,28 @@
 package com.kp.kpsgearmod.item;
 
-import com.kp.kpsgearmod.KPsGearMod;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
-import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModItems
 {
-    public static Item unrefinedobsidiandust;
+    public static Item obsidianingot;
 
     public static void init()
     {
-        unrefinedobsidiandust = new ItemUnrefinedObsidianDust();
+        obsidianingot = new ItemObsidianIngot();
         register();
     }
 
     public static void register()
     {
-        GameRegistry.register(unrefinedobsidiandust);
+        GameRegistry.register(obsidianingot);
     }
 
     public static void registerRenders()
     {
-        registerRender(unrefinedobsidiandust);
+        registerRender(obsidianingot);
     }
 
     private static void registerRender(Item item)
