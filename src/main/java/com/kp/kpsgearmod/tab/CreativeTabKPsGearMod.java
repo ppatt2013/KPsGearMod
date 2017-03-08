@@ -21,6 +21,6 @@ public class CreativeTabKPsGearMod extends CreativeTabs
     @SideOnly(Side.CLIENT)
     public ItemStack getTabIconItem()
     {
-        return new ItemStack(ModItems.obsidianingot);
+        return new ItemStack(ModItems.obsidianpickaxe);
     }
 }
