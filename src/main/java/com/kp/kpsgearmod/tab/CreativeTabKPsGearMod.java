@@ -12,7 +12,7 @@ public class CreativeTabKPsGearMod extends CreativeTabs
 
     public CreativeTabKPsGearMod(int index)
     {
-        super(index, Reference.MOD_ID);
+        super(index, Reference.CREATIVE_TAB_LABEL);
     }
 
     @Override
