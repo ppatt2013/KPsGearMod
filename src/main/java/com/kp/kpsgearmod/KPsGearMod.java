@@ -33,7 +33,9 @@ public class KPsGearMod
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
+        ModRecipes.addRecipes();
         proxy.init(event);
+
     }
 
     @EventHandler
