@@ -1,7 +1,9 @@
 package com.kp.kpsgearmod.item;
 
+import com.kp.kpsgearmod.Materials;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
@@ -33,19 +35,19 @@ public class ModItems
         diamonddust = new ItemDiamondDust();
         moltenblaze = new ItemMoltenBlaze();
         molteningot = new ItemMoltenIngot();
-        obsidianchestplate = new ItemObsidianChestplate();
-        obsidianhelmet = new ItemObsidianHelmet();
-        obsidianleggings = new ItemObsidianLeggings();
-        obsidianboots = new ItemObsidianBoots();
-        obsidiansword = new ItemObsidianSword();
-        obsidianpickaxe = new ItemObsidianPickaxe();
-        obsidianshovel = new ItemObsidianShovel();
-        obsidianaxe = new ItemObsidianAxe();
-        obsidianhoe = new ItemObsidianHoe();
-        moltenchestplate = new ItemMoltenChestplate();
-        moltenhelmet = new ItemMoltenHelmet();
-        moltenleggings = new ItemMoltenLeggings();
-        moltenboots = new ItemMoltenBoots();
+        obsidianchestplate = new ItemObsidianChestplate(Materials.obsidianArmorMaterial, EntityEquipmentSlot.CHEST);
+        obsidianhelmet = new ItemObsidianHelmet(Materials.obsidianArmorMaterial, EntityEquipmentSlot.HEAD);
+        obsidianleggings = new ItemObsidianLeggings(Materials.obsidianArmorMaterial, EntityEquipmentSlot.LEGS);
+        obsidianboots = new ItemObsidianBoots(Materials.obsidianArmorMaterial, EntityEquipmentSlot.FEET);
+        obsidiansword = new ItemObsidianSword(Materials.obsidianToolMaterial);
+        obsidianpickaxe = new ItemObsidianPickaxe(Materials.obsidianToolMaterial);
+        obsidianshovel = new ItemObsidianShovel(Materials.obsidianToolMaterial);
+        obsidianaxe = new ItemObsidianAxe(Materials.obsidianToolMaterial);
+        obsidianhoe = new ItemObsidianHoe(Materials.obsidianToolMaterial);
+        moltenchestplate = new ItemMoltenChestplate(Materials.moltenArmorMaterial, EntityEquipmentSlot.CHEST);
+        moltenhelmet = new ItemMoltenHelmet(Materials.moltenArmorMaterial, EntityEquipmentSlot.HEAD);
+        moltenleggings = new ItemMoltenLeggings(Materials.moltenArmorMaterial, EntityEquipmentSlot.LEGS);
+        moltenboots = new ItemMoltenBoots(Materials.moltenArmorMaterial, EntityEquipmentSlot.FEET);
         register();
     }
 
