@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "kpsgearmod:items/blazealloy"
+    "layer0": "kpsgearmod:items/fluxedobsidian"
   },
 
   "display": {

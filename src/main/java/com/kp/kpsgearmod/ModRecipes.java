@@ -93,15 +93,15 @@ public class ModRecipes
 
         //All shapeless crafting recipes.
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.diamonddust), Items.DIAMOND);
-        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.obsidianalloy), new ItemStack(ModItems.refinedobsidian), new ItemStack(ModItems.bottlediamondflux));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.fluxedobsidian), new ItemStack(ModItems.refinedobsidian), new ItemStack(ModItems.bottlediamondflux));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.bottlediamondflux), Items.POTIONITEM, Items.MAGMA_CREAM, new ItemStack(ModItems.diamonddust));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.bottlemoltenblaze), Items.POTIONITEM, Items.BLAZE_POWDER, Items.MAGMA_CREAM);
-        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.blazealloy), Items.IRON_INGOT, new ItemStack(ModItems.bottlemoltenblaze));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.blazediron), Items.IRON_INGOT, new ItemStack(ModItems.bottlemoltenblaze));
 
         //All smelting recipes.
         GameRegistry.addSmelting(Blocks.OBSIDIAN, new ItemStack(ModItems.refinedobsidian), 1F);
-        GameRegistry.addSmelting(new ItemStack(ModItems.blazealloy), new ItemStack(ModItems.blazealloyingot), 1F);
-        GameRegistry.addSmelting(new ItemStack(ModItems.obsidianalloy), new ItemStack(ModItems.obsidianalloyingot), 1F);
+        GameRegistry.addSmelting(new ItemStack(ModItems.blazediron), new ItemStack(ModItems.blazealloyingot), 1F);
+        GameRegistry.addSmelting(new ItemStack(ModItems.fluxedobsidian), new ItemStack(ModItems.obsidianalloyingot), 1F);
 
     }
 }

@@ -16,12 +16,12 @@ public class Reference
         public static enum KPsGearModItems
         {
             REFINEDOBSIDIAN("refinedobsidian", "ItemRefinedObsidian"),
-            OBSIDIANALLOY("obsidianalloy", "ItemObsidianAlloy"),
+            FLUXEDOBSIDIAN("fluxedobsidian", "ItemFluxedObsidian"),
             DIAMONDDUST("diamonddust", "ItemDiamondDust"),
-            BOTTLEDIAMONDFLUX("bottlediamondflux", "ItemBottleDiamondFLux"),
+            BOTTLEDIAMONDFLUX("bottlediamondflux", "ItemBottleDiamondFlux"),
             OBSIDIANALLOYINGOT("obsidianalloyingot", "ItemObsidianAlloyIngot"),
             BOTTLEMOLTENBLAZE("bottlemoltenblaze", "ItemBottleMoltenBlaze"),
-            BLAZEALLOY("blazealloy", "ItemBlazeAlloy"),
+            BLAZEDIRON("blazediron", "ItemBlazedIron"),
             BLAZEALLOYINGOT("blazealloyingot", "ItemBlazeAlloyIngot"),
             OBSIDIANCHESTPLATE("obsidianchestplate", "ItemObsidianChestplate"),
             OBSIDIANHELMET("obsidianhelmet", "ItemObsidianHelmet"),
