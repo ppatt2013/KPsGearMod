@@ -7,13 +7,13 @@ import net.minecraft.item.Item;
 /**
  * Created by keane on 3/8/2017.
  */
-public class ItemObsidianAlloy extends Item
+public class ItemFluxedObsidian extends Item
 {
 
-    public ItemObsidianAlloy()
+    public ItemFluxedObsidian()
     {
-        setUnlocalizedName(Reference.KPsGearModItems.OBSIDIANALLOY.getUnlocalizedName());
-        setRegistryName(Reference.KPsGearModItems.OBSIDIANALLOY.getRegistryName());
+        setUnlocalizedName(Reference.KPsGearModItems.FLUXEDOBSIDIAN.getUnlocalizedName());
+        setRegistryName(Reference.KPsGearModItems.FLUXEDOBSIDIAN.getRegistryName());
         setCreativeTab(KPsGearMod.tabKPsGearMod);
         setMaxStackSize(64);
     }

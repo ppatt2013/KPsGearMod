@@ -10,12 +10,12 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class ModItems
 {
     public static Item refinedobsidian;
-    public static Item obsidianalloy;
+    public static Item fluxedobsidian;
     public static Item obsidianalloyingot;
     public static Item diamonddust;
     public static Item bottlediamondflux;
     public static Item bottlemoltenblaze;
-    public static Item blazealloy;
+    public static Item blazediron;
     public static Item blazealloyingot;
     public static Item obsidianchestplate;
     public static Item obsidianhelmet;
@@ -34,12 +34,12 @@ public class ModItems
     public static void init()
     {
         refinedobsidian = new ItemRefinedObsidian();
-        obsidianalloy = new ItemObsidianAlloy();
+        fluxedobsidian = new ItemFluxedObsidian();
         diamonddust = new ItemDiamondDust();
         obsidianalloyingot = new ItemObsidianAlloyIngot();
         bottlediamondflux = new ItemBottleDiamondFlux();
         bottlemoltenblaze = new ItemBottleMoltenBlaze();
-        blazealloy = new ItemBlazeAlloy();
+        blazediron = new ItemBlazedIron();
         blazealloyingot = new ItemBlazeAlloyIngot();
         obsidianchestplate = new ItemObsidianChestplate(Materials.obsidianArmorMaterial, 1, EntityEquipmentSlot.CHEST);
         obsidianhelmet = new ItemObsidianHelmet(Materials.obsidianArmorMaterial, 1, EntityEquipmentSlot.HEAD);
@@ -60,12 +60,12 @@ public class ModItems
     public static void register()
     {
         GameRegistry.register(refinedobsidian);
-        GameRegistry.register(obsidianalloy);
+        GameRegistry.register(fluxedobsidian);
         GameRegistry.register(diamonddust);
         GameRegistry.register(obsidianalloyingot);
         GameRegistry.register(bottlediamondflux);
         GameRegistry.register(bottlemoltenblaze);
-        GameRegistry.register(blazealloy);
+        GameRegistry.register(blazediron);
         GameRegistry.register(blazealloyingot);
         GameRegistry.register(obsidianchestplate);
         GameRegistry.register(obsidianhelmet);
@@ -85,12 +85,12 @@ public class ModItems
     public static void registerRenders()
     {
         registerRender(refinedobsidian);
-        registerRender(obsidianalloy);
+        registerRender(fluxedobsidian);
         registerRender(diamonddust);
         registerRender(obsidianalloyingot);
         registerRender(bottlediamondflux);
         registerRender(bottlemoltenblaze);
-        registerRender(blazealloy);
+        registerRender(blazediron);
         registerRender(blazealloyingot);
         registerRender(obsidianchestplate);
         registerRender(obsidianhelmet);
