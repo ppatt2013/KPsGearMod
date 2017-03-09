@@ -1,21 +1,17 @@
 package com.kp.kpsgearmod.item;
 
-import com.kp.kpsgearmod.KPsGearMod;
 import com.kp.kpsgearmod.Reference;
 import net.minecraft.inventory.EntityEquipmentSlot;
-import net.minecraft.item.ItemArmor;
 
 /**
  * Created by keane on 3/8/2017.
  */
-public class ItemBlazeHelmet extends ItemArmor {
+public class ItemBlazeHelmet extends ItemBlazeArmorBase {
 
     public ItemBlazeHelmet(ArmorMaterial materialIn, int renderIndexIn, EntityEquipmentSlot equipmentSlotIn)
     {
         super(materialIn, renderIndexIn, equipmentSlotIn);
         setUnlocalizedName(Reference.KPsGearModItems.BLAZEHELMET.getUnlocalizedName());
         setRegistryName(Reference.KPsGearModItems.BLAZEHELMET.getRegistryName());
-        setCreativeTab(KPsGearMod.tabKPsGearMod);
-        setMaxStackSize(1);
     }
 }

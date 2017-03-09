@@ -1,8 +1,6 @@
 package com.kp.kpsgearmod;
 
-import com.google.common.collect.Lists;
 import com.kp.kpsgearmod.item.ModItems;
-import com.kp.kpsgearmod.recipies.RecipeMoltenBlaze;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
