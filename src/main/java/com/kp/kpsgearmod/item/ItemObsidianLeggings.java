@@ -12,9 +12,9 @@ import net.minecraft.item.ItemArmor;
 public class ItemObsidianLeggings extends ItemArmor
 {
 
-    public ItemObsidianLeggings(ArmorMaterial material, int renderIndex, EntityEquipmentSlot slot)
+    public ItemObsidianLeggings(ArmorMaterial materialIn, int renderIndexIn, EntityEquipmentSlot equipmentSlotIn)
     {
-        super(material, renderIndex, slot);
+        super(materialIn, renderIndexIn, equipmentSlotIn);
         setUnlocalizedName(Reference.KPsGearModItems.OBSIDIANLEGGINGS.getUnlocalizedName());
         setRegistryName(Reference.KPsGearModItems.OBSIDIANLEGGINGS.getRegistryName());
         setCreativeTab(KPsGearMod.tabKPsGearMod);

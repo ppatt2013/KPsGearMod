@@ -11,9 +11,9 @@ import net.minecraft.item.ItemArmor;
 public class ItemObsidianHelmet extends ItemArmor
 {
 
-    public ItemObsidianHelmet(ArmorMaterial material, int renderIndex, EntityEquipmentSlot slot)
+    public ItemObsidianHelmet(ArmorMaterial materialIn, int renderIndexIn, EntityEquipmentSlot equipmentSlotIn)
     {
-        super(material, renderIndex, slot);
+        super(materialIn, renderIndexIn, equipmentSlotIn);
         setUnlocalizedName(Reference.KPsGearModItems.OBSIDIANHELMET.getUnlocalizedName());
         setRegistryName(Reference.KPsGearModItems.OBSIDIANHELMET.getRegistryName());
         setCreativeTab(KPsGearMod.tabKPsGearMod);

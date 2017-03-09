@@ -11,9 +11,9 @@ import net.minecraft.item.ItemArmor;
  */
 public class ItemMoltenBoots extends ItemArmor {
 
-    public ItemMoltenBoots(ItemArmor.ArmorMaterial material, EntityEquipmentSlot slot)
+    public ItemMoltenBoots(ArmorMaterial materialIn, int renderIndexIn, EntityEquipmentSlot equipmentSlotIn)
     {
-        super(material, 0, slot);
+        super(materialIn, renderIndexIn, equipmentSlotIn);
         setUnlocalizedName(Reference.KPsGearModItems.MOLTENBOOTS.getUnlocalizedName());
         setRegistryName(Reference.KPsGearModItems.MOLTENBOOTS.getRegistryName());
         setCreativeTab(KPsGearMod.tabKPsGearMod);

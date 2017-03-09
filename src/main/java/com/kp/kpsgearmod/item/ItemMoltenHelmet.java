@@ -11,9 +11,9 @@ import net.minecraft.item.ItemArmor;
  */
 public class ItemMoltenHelmet extends ItemArmor {
 
-    public ItemMoltenHelmet(ItemArmor.ArmorMaterial material, EntityEquipmentSlot slot)
+    public ItemMoltenHelmet(ArmorMaterial materialIn, int renderIndexIn, EntityEquipmentSlot equipmentSlotIn)
     {
-        super(material, 0, slot);
+        super(materialIn, renderIndexIn, equipmentSlotIn);
         setUnlocalizedName(Reference.KPsGearModItems.MOLTENHELMET.getUnlocalizedName());
         setRegistryName(Reference.KPsGearModItems.MOLTENHELMET.getRegistryName());
         setCreativeTab(KPsGearMod.tabKPsGearMod);

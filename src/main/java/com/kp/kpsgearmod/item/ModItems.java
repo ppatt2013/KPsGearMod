@@ -44,10 +44,10 @@ public class ModItems
         obsidianshovel = new ItemObsidianShovel(Materials.obsidianToolMaterial);
         obsidianaxe = new ItemObsidianAxe(Materials.obsidianToolMaterial);
         obsidianhoe = new ItemObsidianHoe(Materials.obsidianToolMaterial);
-        moltenchestplate = new ItemMoltenChestplate(Materials.moltenArmorMaterial, EntityEquipmentSlot.CHEST);
-        moltenhelmet = new ItemMoltenHelmet(Materials.moltenArmorMaterial, EntityEquipmentSlot.HEAD);
-        moltenleggings = new ItemMoltenLeggings(Materials.moltenArmorMaterial, EntityEquipmentSlot.LEGS);
-        moltenboots = new ItemMoltenBoots(Materials.moltenArmorMaterial, EntityEquipmentSlot.FEET);
+        moltenchestplate = new ItemMoltenChestplate(Materials.moltenArmorMaterial, 1, EntityEquipmentSlot.CHEST);
+        moltenhelmet = new ItemMoltenHelmet(Materials.moltenArmorMaterial, 1, EntityEquipmentSlot.HEAD);
+        moltenleggings = new ItemMoltenLeggings(Materials.moltenArmorMaterial, 2, EntityEquipmentSlot.LEGS);
+        moltenboots = new ItemMoltenBoots(Materials.moltenArmorMaterial, 1, EntityEquipmentSlot.FEET);
         register();
     }
 

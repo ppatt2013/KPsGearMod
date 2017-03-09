@@ -12,9 +12,9 @@ import net.minecraft.item.ItemArmor;
 public class ItemMoltenChestplate extends ItemArmor
 {
 
-    public ItemMoltenChestplate(ArmorMaterial material, EntityEquipmentSlot slot)
+    public ItemMoltenChestplate(ArmorMaterial materialIn, int renderIndexIn, EntityEquipmentSlot equipmentSlotIn)
     {
-        super(material, 0, slot);
+        super(materialIn, renderIndexIn, equipmentSlotIn);
         setUnlocalizedName(Reference.KPsGearModItems.MOLTENCHESTPLATE.getUnlocalizedName());
         setRegistryName(Reference.KPsGearModItems.MOLTENCHESTPLATE.getRegistryName());
         setCreativeTab(KPsGearMod.tabKPsGearMod);
