@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "kpsgearmod:items/molteningot"
+    "layer0": "kpsgearmod:items/bottlediamondflux"
   },
 
   "display": {

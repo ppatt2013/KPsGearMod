@@ -8,13 +8,13 @@ import net.minecraft.item.ItemArmor;
 /**
  * Created by keane on 3/8/2017.
  */
-public class ItemMoltenHelmet extends ItemArmor {
+public class ItemBlazeHelmet extends ItemArmor {
 
-    public ItemMoltenHelmet(ArmorMaterial materialIn, int renderIndexIn, EntityEquipmentSlot equipmentSlotIn)
+    public ItemBlazeHelmet(ArmorMaterial materialIn, int renderIndexIn, EntityEquipmentSlot equipmentSlotIn)
     {
         super(materialIn, renderIndexIn, equipmentSlotIn);
-        setUnlocalizedName(Reference.KPsGearModItems.MOLTENHELMET.getUnlocalizedName());
-        setRegistryName(Reference.KPsGearModItems.MOLTENHELMET.getRegistryName());
+        setUnlocalizedName(Reference.KPsGearModItems.BLAZEHELMET.getUnlocalizedName());
+        setRegistryName(Reference.KPsGearModItems.BLAZEHELMET.getRegistryName());
         setCreativeTab(KPsGearMod.tabKPsGearMod);
         setMaxStackSize(1);
     }

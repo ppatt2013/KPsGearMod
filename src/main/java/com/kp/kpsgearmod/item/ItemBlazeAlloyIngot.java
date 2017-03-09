@@ -7,13 +7,13 @@ import net.minecraft.item.Item;
 /**
  * Created by keane on 3/8/2017.
  */
-public class ItemMoltenIngot extends Item
+public class ItemBlazeAlloyIngot extends Item
 {
 
-    public ItemMoltenIngot()
+    public ItemBlazeAlloyIngot()
     {
-        setUnlocalizedName(Reference.KPsGearModItems.MOLTENINGOT.getUnlocalizedName());
-        setRegistryName(Reference.KPsGearModItems.MOLTENINGOT.getRegistryName());
+        setUnlocalizedName(Reference.KPsGearModItems.BLAZEALLOYINGOT.getUnlocalizedName());
+        setRegistryName(Reference.KPsGearModItems.BLAZEALLOYINGOT.getRegistryName());
         setCreativeTab(KPsGearMod.tabKPsGearMod);
         setMaxStackSize(64);
     }

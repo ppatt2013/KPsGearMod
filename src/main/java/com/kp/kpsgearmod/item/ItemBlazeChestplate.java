@@ -13,14 +13,14 @@ import net.minecraft.world.World;
 /**
  * Created by keane on 3/8/2017.
  */
-public class ItemMoltenChestplate extends ItemArmor
+public class ItemBlazeChestplate extends ItemArmor
 {
 
-    public ItemMoltenChestplate(ArmorMaterial materialIn, int renderIndexIn, EntityEquipmentSlot equipmentSlotIn)
+    public ItemBlazeChestplate(ArmorMaterial materialIn, int renderIndexIn, EntityEquipmentSlot equipmentSlotIn)
     {
         super(materialIn, renderIndexIn, equipmentSlotIn);
-        setUnlocalizedName(Reference.KPsGearModItems.MOLTENCHESTPLATE.getUnlocalizedName());
-        setRegistryName(Reference.KPsGearModItems.MOLTENCHESTPLATE.getRegistryName());
+        setUnlocalizedName(Reference.KPsGearModItems.BLAZECHESTPLATE.getUnlocalizedName());
+        setRegistryName(Reference.KPsGearModItems.BLAZECHESTPLATE.getRegistryName());
         setCreativeTab(KPsGearMod.tabKPsGearMod);
         setMaxStackSize(1);
     }

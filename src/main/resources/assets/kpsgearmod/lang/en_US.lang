@@ -4,11 +4,14 @@
 itemGroup.tab_kpsgearmod=KPs Gear Mod
 
 #Items
-item.obsidianingot.name=Obsidian Ingot
+item.refinedobsidian.name=Refined Obsidian Ingot
 item.obsidianalloy.name=Obsidian Alloy
 item.diamonddust.name=Diamond Dust
-item.moltenblaze.name=Molten Blaze
-item.molteningot.name=Molten Ingot
+item.bottlediamondflux.name=Bottle of Diamond Flux
+item.obsidianalloyingot.name=Obsidian Alloy Ingot
+item.bottlemoltenblaze.name=Bottle of Molten Blaze
+item.blazealloy.name=Blaze Alloy
+item.blazealloyingot.name=Blaze Alloy Ingot
 item.obsidianchestplate.name=Obsidian Chestplate
 item.obsidianhelmet.name=Obsidian Helmet
 item.obsidianleggings.name=Obsidian Leggings
@@ -18,7 +21,7 @@ item.obsidianpickaxe.name=Obsidian Pickaxe
 item.obsidianshovel.name=Obsidian Shovel
 item.obsidianaxe.name=Obsidian Axe
 item.obsidianhoe.name=Obsidian Hoe
-item.moltenchestplate.name=Molten Chestplate
-item.moltenhelmet.name=Molten Helmet
-item.moltenleggings.name=Molten Leggings
-item.moltenboots.name=Molten Boots
+item.blazechestplate.name=Blaze Chestplate
+item.blazehelmet.name=Blaze Helmet
+item.blazeleggings.name=Blaze Leggings
+item.blazeboots.name=Blaze Boots

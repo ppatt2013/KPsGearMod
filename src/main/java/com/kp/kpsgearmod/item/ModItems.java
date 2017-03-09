@@ -9,11 +9,14 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModItems
 {
-    public static Item obsidianingot;
+    public static Item refinedobsidian;
     public static Item obsidianalloy;
+    public static Item obsidianalloyingot;
     public static Item diamonddust;
-    public static Item moltenblaze;
-    public static Item molteningot;
+    public static Item bottlediamondflux;
+    public static Item bottlemoltenblaze;
+    public static Item blazealloy;
+    public static Item blazealloyingot;
     public static Item obsidianchestplate;
     public static Item obsidianhelmet;
     public static Item obsidianleggings;
@@ -23,18 +26,21 @@ public class ModItems
     public static Item obsidianshovel;
     public static Item obsidianaxe;
     public static Item obsidianhoe;
-    public static Item moltenchestplate;
-    public static Item moltenhelmet;
-    public static Item moltenleggings;
-    public static Item moltenboots;
+    public static Item blazechestplate;
+    public static Item blazehelmet;
+    public static Item blazeleggings;
+    public static Item blazeboots;
 
     public static void init()
     {
-        obsidianingot = new ItemObsidianIngot();
+        refinedobsidian = new ItemRefinedObsidian();
         obsidianalloy = new ItemObsidianAlloy();
         diamonddust = new ItemDiamondDust();
-        moltenblaze = new ItemMoltenBlaze();
-        molteningot = new ItemMoltenIngot();
+        obsidianalloyingot = new ItemObsidianAlloyIngot();
+        bottlediamondflux = new ItemBottleDiamondFlux();
+        bottlemoltenblaze = new ItemBottleMoltenBlaze();
+        blazealloy = new ItemBlazeAlloy();
+        blazealloyingot = new ItemBlazeAlloyIngot();
         obsidianchestplate = new ItemObsidianChestplate(Materials.obsidianArmorMaterial, 1, EntityEquipmentSlot.CHEST);
         obsidianhelmet = new ItemObsidianHelmet(Materials.obsidianArmorMaterial, 1, EntityEquipmentSlot.HEAD);
         obsidianleggings = new ItemObsidianLeggings(Materials.obsidianArmorMaterial, 2, EntityEquipmentSlot.LEGS);
@@ -44,20 +50,23 @@ public class ModItems
         obsidianshovel = new ItemObsidianShovel(Materials.obsidianToolMaterial);
         obsidianaxe = new ItemObsidianAxe(Materials.obsidianToolMaterial);
         obsidianhoe = new ItemObsidianHoe(Materials.obsidianToolMaterial);
-        moltenchestplate = new ItemMoltenChestplate(Materials.moltenArmorMaterial, 1, EntityEquipmentSlot.CHEST);
-        moltenhelmet = new ItemMoltenHelmet(Materials.moltenArmorMaterial, 1, EntityEquipmentSlot.HEAD);
-        moltenleggings = new ItemMoltenLeggings(Materials.moltenArmorMaterial, 2, EntityEquipmentSlot.LEGS);
-        moltenboots = new ItemMoltenBoots(Materials.moltenArmorMaterial, 1, EntityEquipmentSlot.FEET);
+        blazechestplate = new ItemBlazeChestplate(Materials.blazeArmorMaterial, 1, EntityEquipmentSlot.CHEST);
+        blazehelmet = new ItemBlazeHelmet(Materials.blazeArmorMaterial, 1, EntityEquipmentSlot.HEAD);
+        blazeleggings = new ItemBlazeLeggings(Materials.blazeArmorMaterial, 2, EntityEquipmentSlot.LEGS);
+        blazeboots = new ItemBlazeBoots(Materials.blazeArmorMaterial, 1, EntityEquipmentSlot.FEET);
         register();
     }
 
     public static void register()
     {
-        GameRegistry.register(obsidianingot);
+        GameRegistry.register(refinedobsidian);
         GameRegistry.register(obsidianalloy);
         GameRegistry.register(diamonddust);
-        GameRegistry.register(moltenblaze);
-        GameRegistry.register(molteningot);
+        GameRegistry.register(obsidianalloyingot);
+        GameRegistry.register(bottlediamondflux);
+        GameRegistry.register(bottlemoltenblaze);
+        GameRegistry.register(blazealloy);
+        GameRegistry.register(blazealloyingot);
         GameRegistry.register(obsidianchestplate);
         GameRegistry.register(obsidianhelmet);
         GameRegistry.register(obsidianleggings);
@@ -67,19 +76,22 @@ public class ModItems
         GameRegistry.register(obsidianshovel);
         GameRegistry.register(obsidianaxe);
         GameRegistry.register(obsidianhoe);
-        GameRegistry.register(moltenchestplate);
-        GameRegistry.register(moltenhelmet);
-        GameRegistry.register(moltenleggings);
-        GameRegistry.register(moltenboots);
+        GameRegistry.register(blazechestplate);
+        GameRegistry.register(blazehelmet);
+        GameRegistry.register(blazeleggings);
+        GameRegistry.register(blazeboots);
     }
 
     public static void registerRenders()
     {
-        registerRender(obsidianingot);
+        registerRender(refinedobsidian);
         registerRender(obsidianalloy);
         registerRender(diamonddust);
-        registerRender(moltenblaze);
-        registerRender(molteningot);
+        registerRender(obsidianalloyingot);
+        registerRender(bottlediamondflux);
+        registerRender(bottlemoltenblaze);
+        registerRender(blazealloy);
+        registerRender(blazealloyingot);
         registerRender(obsidianchestplate);
         registerRender(obsidianhelmet);
         registerRender(obsidianleggings);
@@ -89,10 +101,10 @@ public class ModItems
         registerRender(obsidianshovel);
         registerRender(obsidianaxe);
         registerRender(obsidianhoe);
-        registerRender(moltenchestplate);
-        registerRender(moltenhelmet);
-        registerRender(moltenleggings);
-        registerRender(moltenboots);
+        registerRender(blazechestplate);
+        registerRender(blazehelmet);
+        registerRender(blazeleggings);
+        registerRender(blazeboots);
     }
 
     private static void registerRender(Item item)

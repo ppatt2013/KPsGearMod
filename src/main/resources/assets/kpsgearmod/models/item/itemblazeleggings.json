@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "kpsgearmod:items/moltenboots"
+    "layer0": "kpsgearmod:items/blazeleggings"
   },
 
   "display": {

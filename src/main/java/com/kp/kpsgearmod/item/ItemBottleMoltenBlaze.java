@@ -7,13 +7,13 @@ import net.minecraft.item.Item;
 /**
  * Created by keane on 3/8/2017.
  */
-public class ItemMoltenBlaze extends Item
+public class ItemBottleMoltenBlaze extends Item
 {
 
-    public ItemMoltenBlaze()
+    public ItemBottleMoltenBlaze()
     {
-        setUnlocalizedName(Reference.KPsGearModItems.MOLTENBLAZE.getUnlocalizedName());
-        setRegistryName(Reference.KPsGearModItems.MOLTENBLAZE.getRegistryName());
+        setUnlocalizedName(Reference.KPsGearModItems.BOTTLEMOLTENBLAZE.getUnlocalizedName());
+        setRegistryName(Reference.KPsGearModItems.BOTTLEMOLTENBLAZE.getRegistryName());
         setCreativeTab(KPsGearMod.tabKPsGearMod);
         setMaxStackSize(1);
     }

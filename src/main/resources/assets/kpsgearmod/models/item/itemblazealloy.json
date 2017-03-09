@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "kpsgearmod:items/moltenhelmet"
+    "layer0": "kpsgearmod:items/blazealloy"
   },
 
   "display": {
