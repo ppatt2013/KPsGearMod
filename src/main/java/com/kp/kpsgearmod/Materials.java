@@ -11,7 +11,7 @@ import net.minecraftforge.common.util.EnumHelper;
 public class Materials
 {
     //Tool Materials
-    public static Item.ToolMaterial obsidianToolMaterial = EnumHelper.addToolMaterial("OBSIDIAN", 3, 2500, 15.0F, 5.0F, 15);
+    public static Item.ToolMaterial obsidianToolMaterial = EnumHelper.addToolMaterial("OBSIDIAN", 3, 4000, 15.0F, 5.0F, 15);
 
     //Armor Materials
     public static final ItemArmor.ArmorMaterial obsidianArmorMaterial = EnumHelper.addArmorMaterial("OBSIDIAN", "kpsgearmod:obsidian", 40, new int[]{3, 7, 9, 4}, 15, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 2.0F);
