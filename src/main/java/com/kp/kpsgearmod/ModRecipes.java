@@ -1,6 +1,8 @@
 package com.kp.kpsgearmod;
 
+import com.google.common.collect.Lists;
 import com.kp.kpsgearmod.item.ModItems;
+import com.kp.kpsgearmod.recipies.RecipeMoltenBlaze;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
@@ -89,10 +91,12 @@ public class ModRecipes
                 'A', new ItemStack(ModItems.molteningot)
         );
 
+        GameRegistry.addRecipe(new RecipeMoltenBlaze(new ItemStack(ModItems.moltenblaze), Lists.newArrayList(new ItemStack(Items.LAVA_BUCKET), new ItemStack(Items.BLAZE_POWDER))));
+
         //All shapeless crafting recipes.
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.diamonddust), Items.DIAMOND);
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.obsidianalloy), new ItemStack(ModItems.obsidianingot), new ItemStack(ModItems.diamonddust));
-        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.moltenblaze), Items.LAVA_BUCKET, Items.BLAZE_POWDER);
+        //GameRegistry.addShapelessRecipe(new ItemStack(ModItems.moltenblaze), Items.LAVA_BUCKET, Items.BLAZE_POWDER);
 
         //All smelting recipes.
         GameRegistry.addSmelting(Blocks.OBSIDIAN, new ItemStack(ModItems.obsidianingot), 1F);

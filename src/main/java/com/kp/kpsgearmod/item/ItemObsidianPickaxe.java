@@ -2,7 +2,6 @@ package com.kp.kpsgearmod.item;
 
 import com.kp.kpsgearmod.KPsGearMod;
 import com.kp.kpsgearmod.Reference;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemPickaxe;
 
 /**
